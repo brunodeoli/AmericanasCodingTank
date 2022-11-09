@@ -31,9 +31,10 @@ public class Losango {
             //Percorre as colunas
             for (int j=0; j<tamLosango; j++){
                 //Printa '*' caso:
+                //          primeira linha;
                 //          coluna atual menor permitido para percorrer;
                 //          coluna atual maior permitido para percorrer.
-                if(j<=percorreEsq || j>=percorreDir){
+                if(i==0 || j<=percorreEsq || j>=percorreDir){
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
